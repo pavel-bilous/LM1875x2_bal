@@ -1,5 +1,11 @@
 # Two paralleled LM1875 ICs schematics and PCB design
 
+Benefits of using two chips in parallel include: increase of the output drive capability of an amplifier, reduced voltage noise (better SNR), and reduced output offset error.
+
+Resources used to design this amp:
+
+Official datasheet - [https://www.ti.com/lit/gpn/lm1875](https://www.ti.com/lit/gpn/lm1875)
+
 ## PCB rendered in 3d:
 ![Screenshot](img/3d.png)
 
