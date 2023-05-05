@@ -6,8 +6,6 @@ Resources used to design this amp:
 
 Official datasheet - [https://www.ti.com/lit/gpn/lm1875](https://www.ti.com/lit/gpn/lm1875)
 
-Official datasheet for dual chip - [https://www.ti.com/lit/gpn/LM1876](https://www.ti.com/lit/gpn/LM1876)
-
 ## PCB rendered in 3d:
 ![Screenshot](img/3d.png)
 
