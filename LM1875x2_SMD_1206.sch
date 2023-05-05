@@ -261,7 +261,7 @@ Wire Wire Line
 	6950 3300 6950 3650
 Connection ~ 6950 3650
 Wire Wire Line
-	6950 3650 7300 3650
+	6950 3650 7200 3650
 Wire Wire Line
 	4750 2400 4150 2400
 Wire Wire Line
@@ -637,17 +637,6 @@ F 3 "~" H 7500 4600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J1
-U 1 1 643F6E72
-P 2400 3800
-F 0 "J1" H 2318 3475 50  0000 C CNN
-F 1 "INPUT" H 2318 3566 50  0000 C CNN
-F 2 "local_lib_footprints:TerminalBlock_ Amphenol_01_03_P3.50mm" H 2400 3800 50  0001 C CNN
-F 3 "~" H 2400 3800 50  0001 C CNN
-	1    2400 3800
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR015
 U 1 1 643FAFE6
 P 7300 4600
@@ -680,4 +669,171 @@ F 3 "" H 7300 4700 50  0001 C CNN
 	1    7300 4700
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 645481D4
+P 1000 7000
+F 0 "H2" H 1100 7046 50  0000 L CNN
+F 1 "MountingHole" H 1100 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1000 7000 50  0001 C CNN
+F 3 "~" H 1000 7000 50  0001 C CNN
+	1    1000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 64548C75
+P 1000 7250
+F 0 "H3" H 1100 7296 50  0000 L CNN
+F 1 "MountingHole" H 1100 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1000 7250 50  0001 C CNN
+F 3 "~" H 1000 7250 50  0001 C CNN
+	1    1000 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 64548F34
+P 1000 7500
+F 0 "H4" H 1100 7546 50  0000 L CNN
+F 1 "MountingHole" H 1100 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1000 7500 50  0001 C CNN
+F 3 "~" H 1000 7500 50  0001 C CNN
+	1    1000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 64549215
+P 1000 6750
+F 0 "H1" H 1100 6796 50  0000 L CNN
+F 1 "MountingHole" H 1100 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1000 6750 50  0001 C CNN
+F 3 "~" H 1000 6750 50  0001 C CNN
+	1    1000 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 643F6E72
+P 2400 3800
+F 0 "J1" H 2318 3475 50  0000 C CNN
+F 1 "INPUT" H 2318 3566 50  0000 C CNN
+F 2 "local_lib_footprints:TerminalBlock_ Amphenol_01_03_P3.50mm" H 2400 3800 50  0001 C CNN
+F 3 "~" H 2400 3800 50  0001 C CNN
+	1    2400 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 64587016
+P 7450 5150
+F 0 "J4" H 7422 5082 50  0000 R CNN
+F 1 "VCC" H 7422 5173 50  0000 R CNN
+F 2 "local_lib_footprints:Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_" H 7450 5150 50  0001 C CNN
+F 3 "~" H 7450 5150 50  0001 C CNN
+	1    7450 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 64588185
+P 7450 5350
+F 0 "J5" H 7422 5282 50  0000 R CNN
+F 1 "GND" H 7422 5373 50  0000 R CNN
+F 2 "local_lib_footprints:Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_" H 7450 5350 50  0001 C CNN
+F 3 "~" H 7450 5350 50  0001 C CNN
+	1    7450 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 645884D3
+P 7450 5550
+F 0 "J6" H 7422 5482 50  0000 R CNN
+F 1 "VEE" H 7422 5573 50  0000 R CNN
+F 2 "local_lib_footprints:Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_" H 7450 5550 50  0001 C CNN
+F 3 "~" H 7450 5550 50  0001 C CNN
+	1    7450 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 64588836
+P 7450 5900
+F 0 "J7" H 7422 5832 50  0000 R CNN
+F 1 "SPK" H 7422 5923 50  0000 R CNN
+F 2 "local_lib_footprints:Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_" H 7450 5900 50  0001 C CNN
+F 3 "~" H 7450 5900 50  0001 C CNN
+	1    7450 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 64588E8D
+P 7450 6100
+F 0 "J8" H 7422 6032 50  0000 R CNN
+F 1 "GND" H 7422 6123 50  0000 R CNN
+F 2 "local_lib_footprints:Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_" H 7450 6100 50  0001 C CNN
+F 3 "~" H 7450 6100 50  0001 C CNN
+	1    7450 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR017
+U 1 1 6458D12D
+P 7250 5150
+F 0 "#PWR017" H 7250 5000 50  0001 C CNN
+F 1 "VCC" V 7265 5277 50  0000 L CNN
+F 2 "" H 7250 5150 50  0001 C CNN
+F 3 "" H 7250 5150 50  0001 C CNN
+	1    7250 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6458D6A9
+P 7250 5350
+F 0 "#PWR018" H 7250 5100 50  0001 C CNN
+F 1 "GND" V 7255 5222 50  0000 R CNN
+F 2 "" H 7250 5350 50  0001 C CNN
+F 3 "" H 7250 5350 50  0001 C CNN
+	1    7250 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VEE #PWR019
+U 1 1 6458DA62
+P 7250 5550
+F 0 "#PWR019" H 7250 5400 50  0001 C CNN
+F 1 "VEE" V 7265 5677 50  0000 L CNN
+F 2 "" H 7250 5550 50  0001 C CNN
+F 3 "" H 7250 5550 50  0001 C CNN
+	1    7250 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 6458DEC2
+P 7250 6100
+F 0 "#PWR020" H 7250 5850 50  0001 C CNN
+F 1 "GND" V 7255 5972 50  0000 R CNN
+F 2 "" H 7250 6100 50  0001 C CNN
+F 3 "" H 7250 6100 50  0001 C CNN
+	1    7250 6100
+	0    1    1    0   
+$EndComp
+Text GLabel 7300 3400 2    50   Input ~ 0
+SPK
+Wire Wire Line
+	7300 3400 7200 3400
+Wire Wire Line
+	7200 3400 7200 3650
+Connection ~ 7200 3650
+Wire Wire Line
+	7200 3650 7300 3650
+Text GLabel 7250 5900 0    50   Input ~ 0
+SPK
+Text Label 6100 3650 0    50   ~ 0
+OUT
 $EndSCHEMATC
