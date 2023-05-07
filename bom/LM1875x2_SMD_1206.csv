@@ -1,11 +1,11 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"J8,J5";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";2;"GND";;;
-2;"J7";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"SPK";;;
-3;"J6";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"VEE";;;
-4;"J4";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"VCC";;;
-5;"H4,H3,H2,H1";"MountingHole_3.5mm_Pad_Via";4;"MountingHole";;;
-6;"L1";"Inductor_DIY_flipped";1;"1uH";;;
-7;"C9";"C_1210_3225Metric_Pad1.42x2.65mm_HandSolder";1;"100n";;;
+1;"C9";"C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2";1;"100n";;;
+2;"J8,J5";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";2;"GND";;;
+3;"J7";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"SPK";;;
+4;"J6";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"VEE";;;
+5;"J4";"Terminal_.25_PCB_TAB_TE_Connectivity_P5.08mm_";1;"VCC";;;
+6;"H4,H3,H2,H1";"MountingHole_3.5mm_Pad_Via";4;"MountingHole";;;
+7;"L1";"Inductor_DIY_flipped";1;"1uH";;;
 8;"C8,C7,C6,C5";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";4;"1u";;;
 9;"U2,U1";"TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical";2;"LM1875";;;
 10;"R12";"R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal";1;"10R 2W";;;
